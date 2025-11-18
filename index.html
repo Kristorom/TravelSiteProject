@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="js.js" defer></script>
+    <title>TravelLove</title>
+</head>
+<body>
+    <nav class="nav-bar" id="navbar">
+        <div class="content">
+            <div class="site-logo">
+                <a href="#" class="logo-link" id="navlogo">TravelLove</a>
+            </div>
+            <ul class="navigation" id="navigation">
+                <li class="link"><a href="#main">Головна сторінка</a></li>
+                <li class="link"><a href="#services">Послуги</a></li>
+                <li class="link"><a href="#about">Про нас</a></li>
+                <li class="link"><a href="#tours">Тури</a></li>
+                <li class="link"><a href="#reviews">Відгуки</a></li>
+                <li class="link"><a href="#contacts">Контакти</a></li>
+                <li class="link"><button class="nav-btn" id="close-btn">Закрити</button></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="main" id="main">
+        <div class="content">
+            <h1>Подорожуйте з комфортом та впевненістю разом з нами!</h1>
+            <h4>Забронюйте незабутню подорож через наше агентство та отримайте спеціальну знижку!</h4>
+            <div class="modal">
+                <a href="#contacts" class="btn-request"><span class="button-txt">Залишити заявку</span></a>
+            </div>
+        </div>
+    </header>
+  
+    <section class="services" id="services">
+        <div class="content">
+            <h1 class="heading">Послуги</h1>
+            <div class="cards">
+                <div class="box">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Оформлення віз</h3>
+                    <p>Забезпечуємо швидке та безпечне оформлення віз для будь-якої країни.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>Бронювання авіаквитків</h3>
+                    <p>Надаємо послуги з бронювання авіаквитків за найкращими цінами, враховуючи всі побажання клієнтів.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-bed"></i>
+                    <h3>Готелі</h3>
+                    <p>Бронюємо готелі будь-якої категорії по всьому світу, забезпечуючи комфортне проживання.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-car"></i>
+                    <h3>Трансфери</h3>
+                    <p>Забезпечуємо комфортні трансфери до аеропортів, готелів та інших місць призначення.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-map-signs"></i>
+                    <h3>Консультації з подорожей</h3>
+                    <p>Наші експерти допоможуть вам вибрати ідеальний напрямок та скласти маршрут.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Страхування</h3>
+                    <p>Повний спектр страхових послуг для вашої безпеки під час подорожей.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="content">
+          <div class="about-img">
+              <img src="img/Team spirit-pana.svg" alt="Illustration">
+          </div>
+          <div class="about-info">
+              <h1>Про нас</h1>
+              <p>TravelLove - це ваш надійний партнер у світі подорожей. Ми пропонуємо широкий спектр послуг, включаючи оформлення віз, бронювання авіаквитків, готельні та транспортні послуги, консультації з подорожей та страхування. Наша місія - забезпечити комфорт та впевненість у кожній вашій подорожі, надаючи вам лише найкраще обслуговування і допомагаючи обрати найкращі маршрути.</p>
+  
+             
+              <div class="about-stats">
+                <div class="stat-item">
+                    <div class="stat-number">13</div>
+                    <div class="stat-text">років праці</div>
+                </div>
+                  <div class="stat-item">
+                      <div class="stat-number">5000</div>
+                      <div class="stat-text">турів організовано<br>по всьому світу</div>
+                  </div>
+                  <div class="stat-item">
+                      <div class="stat-number">4,000</div>
+                      <div class="stat-text">задоволених<br>клієнтів</div>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+  </section>
+ <section class="tours" id="tours">
+        <div class="content">
+            <h1 class="heading">Найпопулярніші тури</h1>
+            <div class="container">
+                <div class="slider-wrapper">
+                  <button id="prev-slide" class="slide-button material-symbols-rounded"><</button>
+                  <ul class="image-list">
+                    <img class="image-item" src="img/tour2.jpg" alt="img-1" /> 
+                    <img class="image-item" src="img/tour9.jpg" alt="img-2" />
+                    <img class="image-item" src="img/tour4.jpg" alt="img-3" />
+                    <img class="image-item" src="img/tour6.jpg" alt="img-4" />
+                    <img class="image-item" src="img/tour8.jpg" alt="img-5" />
+                    <img class="image-item" src="img/tour3.jpg" alt="img-6" />
+                    <img class="image-item" src="img/tour12.jpg" alt="img-7" />
+                    <img class="image-item" src="img/tour11.jpg" alt="img-8" />
+                    <img class="image-item" src="img/tour7.jpg" alt="img-9" />
+                    <img class="image-item" src="img/tour1.jpg" alt="img-10" />
+                  </ul>
+                  <button id="next-slide" class="slide-button material-symbols-rounded">></button>
+                </div>
+                <div class="slider-scrollbar">
+                  <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                  </div>
+                </div>
+              </div>
+        </div> 
+        </div>
+    </section>
+<section class="reviews" id="reviews">
+    <div class="content">
+        <h1 class="heading">Відгуки</h1>
+        <div class="reviews-container">
+            <div class="box">
+                <img src="img/italy.png" alt="">
+                <div class="star">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <h2>Ірина</h2>
+                <p>"Поїздка до Італії була просто неймовірною! Від організації до екскурсій, все пройшло гладко. Наш гід був професійним та дуже обізнаним. Дякуємо за незабутній відпочинок!"</p>   
+            </div>
+            <div class="box">
+                <img src="img/netherlands.png" alt="">
+                <div class="star">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <h2>Артем</h2>
+                <p>"Подорож до Нідерландів була фантастичною! Відмінна організація та чудові готелі. Все було продумано до дрібниць. Рекомендую!"</p>    
+            </div>
+            <div class="box">
+                <img src="img/canada.png" alt="">
+                <div class="star">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <h2>Сергій</h2>
+                <p>"Наше турне по Канаді перевершило всі очікування! Відвідали багато цікавих місць, а організація була на найвищому рівні. Дуже дякую агентству за чудову подорож!"</p>
+            </div>
+            <div class="box">
+                <img src="img/norway.png" alt="">
+                <div class="star">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <h2>Вікторія</h2>
+                <p>"Тур до Норвегії був вражаючим! Краєвиди, екскурсії та сервіс - все на найвищому рівні. Дякуємо за незабутні враження!" </p>   
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contacts" id="contacts">
+    <div class="content">
+        <h1 class="heading">Зв'яжіться з нами</h1>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name" required placeholder="Ваше ім'я">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Ваш Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Повідомлення:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Ваше запитання"></textarea>
+                </div>
+                <button type="submit" class="btn">Залишити заявку</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <h2>Наш телефон</h2>
+                    <p><i class="fas fa-phone-alt"></i> +380 123 456 789</p>
+                </div>
+                <div class="info-item">
+                    <h2>Наше місцезнаходження</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> вул. Прикладна, 123, Київ, Україна</p>
+                </div>
+                <div class="info-item">
+                    <h2>Наш Email</h2>
+                    <p><i class="fas fa-envelope"></i> info@travellove.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="content">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h2>Про нас</h2>
+                <p>TravelLove - це ваш надійний партнер у світі подорожей. Ми пропонуємо широкий спектр послуг для вашого комфорту та впевненості у кожній подорожі.</p>
+            </div>
+            <div class="footer-column">
+                <h2>Послуги</h2>
+                <ul>
+                    <li><a href="#">Оформлення віз</a></li>
+                    <li><a href="#">Бронювання авіаквитків</a></li>
+                    <li><a href="#">Готельні послуги</a></li>
+                    <li><a href="#">Транспортні послуги</a></li>
+                    <li><a href="#">Страхування</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>Контакти</h2>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> +380 123 456 789</li>
+                    <li><i class="fas fa-map-marker-alt"></i> вул. Прикладна, 123, Київ, Україна</li>
+                    <li><i class="fas fa-envelope"></i> info@travellove.com</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>Підписуйтесь на нас</h2>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TravelLove. Всі права захищені.</p>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
